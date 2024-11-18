@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Object</title>
+</head>
+<body>
+	<script>
+
+		let person = {
+				name: "Mario",
+				lastname: "Rossi",
+				age: 35,
+				address: {
+					city: "Roma",
+					street: "Via Garibaldi",
+					number: 10
+				},
+				sayhello: function () {
+					console.log("Buongiorno!");
+				}
+			};
+
+			// Stampiamo l'oggetto person
+			console.log(person);
+
+			// Stampiamo il nome
+			console.log(person.name);
+
+			// Stampiamo il cognome
+			console.log(person.lastname);
+			// Stampiamo l'età
+			console.log(person.age);
+
+			// Stampiamo l'indirizzo
+			console.log(person.address);
+
+			// Stampiamo la città
+			console.log(person.address.city);
+
+			// Stampiamo la via
+			console.log(person.address.street);
+
+			// Stampiamo il numero di casa
+			console.log(person.address.number);
+
+			// Stampiamo il metodo sayhello
+			console.log(person.sayhello());
+
+	</script>
+
+</body>
+</html>
